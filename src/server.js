@@ -7,9 +7,7 @@ const { loadPlanetsData } = require("./models/planets.model");
 
 const PORT = process.env.PORT || 8000;
 
-const MONGO_URL =
-  "mongodb+srv://Kobiljon:Qobiljon20001022@cluster0.knnrswl.mongodb.net/?retryWrites=true&w=majority";
-
+const MONGO_URL = "Your mongoDb URI"
 const server = http.createServer(app);
 
 mongoose.connection.once("open", () => {
